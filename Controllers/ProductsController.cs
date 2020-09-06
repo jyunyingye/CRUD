@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace webapp.Controllers
 {
+    [Produces("application/json")]
     [Route("api/v1/Products")]
     [ApiController]
     public class ProductsController : ControllerBase

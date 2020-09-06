@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace webapi.Controllers
 {
+    [Produces("application/json")]
     [Route("api/v1")]
     [ApiController]
     public class IndexController : ControllerBase
