@@ -12,7 +12,7 @@
 ## API 說明
 
 ```
-1. 取會員商品清單 
+1. 取商品清單 
 GET -- http://{host}/api/v1/Products
 
 2. 取單筆商品 

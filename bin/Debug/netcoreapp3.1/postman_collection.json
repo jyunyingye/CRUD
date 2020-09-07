@@ -1,0 +1,147 @@
+{
+  "info": {
+    "_postman_id": "d006c460-717b-49a9-94d2-bd7b986c797c",
+    "name": "測試",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "首頁",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:5001/api/v1",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "5001",
+          "path": [
+            "api",
+            "v1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "取商品清單",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:5001/api/v1/Products",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "5001",
+          "path": [
+            "api",
+            "v1",
+            "Products"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "取單筆商品",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:5001/api/v1/Products/1",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "5001",
+          "path": [
+            "api",
+            "v1",
+            "Products",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "新增商品資料",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{ \r\n    \"productName\": \"20200906-0406\",\r\n    \"supplierID\": 1,\r\n    \"categoryID\": 1,\r\n    \"quantityPerUnit\": \"10 boxes x 20 bags\",\r\n    \"unitPrice\": 18.0,\r\n    \"unitsInStock\": 39,\r\n    \"unitsOnOrder\": 0,\r\n    \"reorderLevel\": 10,\r\n    \"discontinued\": false\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://localhost:5001/api/v1/Products",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "5001",
+          "path": [
+            "api",
+            "v1",
+            "Products"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "更新商品資料",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:5001/api/v1/Products/79",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "5001",
+          "path": [
+            "api",
+            "v1",
+            "Products",
+            "79"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "移除商品",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:5001/api/v1/Products/1",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "5001",
+          "path": [
+            "api",
+            "v1",
+            "Products",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    }
+  ],
+  "protocolProfileBehavior": {}
+}

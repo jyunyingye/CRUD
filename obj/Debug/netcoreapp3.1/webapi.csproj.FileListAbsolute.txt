@@ -23,3 +23,7 @@ D:\repos\webapi\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
 D:\repos\webapi\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\repos\webapi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\repos\webapi\obj\Debug\netcoreapp3.1\webapi.csproj.CopyComplete
+D:\repos\webapi\bin\Debug\netcoreapp3.1\postman_collection.json
+D:\repos\webapi\bin\Debug\netcoreapp3.1\Dapper.dll
+D:\repos\webapi\obj\Debug\netcoreapp3.1\webapi.csproj.CoreCompileInputs.cache
+D:\repos\webapi\obj\Debug\netcoreapp3.1\webapi.MvcApplicationPartsAssemblyInfo.cache
